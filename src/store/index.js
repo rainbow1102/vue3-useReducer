@@ -1,14 +1,9 @@
-import { createStore } from 'vuex'
+import {actionTypes} from "./actionTypes.js"
+import {todoReducer} from "./reducre.js"
 
-export default createStore({
-  state: {
-  },
-  getters: {
-  },
-  mutations: {
-  },
-  actions: {
-  },
-  modules: {
-  }
-})
+export {
+  actionTypes,
+  todoReducer
+}
+
+
